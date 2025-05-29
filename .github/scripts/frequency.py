@@ -13,7 +13,7 @@ def count_vowels(file_path):
         sys.exit(1)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    if len(sys.argv) != 2:
         print("Usage: python3 frequency.py <file_path>") 
         sys.exit(1)
 
